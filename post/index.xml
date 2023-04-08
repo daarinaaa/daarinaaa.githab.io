@@ -5,12 +5,21 @@
     <link>https://example.com/post/</link>
       <atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 18 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 08 Apr 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://example.com/post/</link>
     </image>
+    
+    <item>
+      <title>A post about the past week</title>
+      <link>https://example.com/post/post1/</link>
+      <pubDate>Sat, 08 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/post1/</guid>
+      <description>&lt;p&gt;This weekend I was resting at home. I read the book, watched the series and cleaned up a bit. After that I went to visit, where I had a great time. When I got back I did my homework.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>A post about the past week</title>
@@ -40,6 +49,29 @@ Centralized Version Control Systems&lt;/p&gt;
 Distributed Version Control Systems&lt;/p&gt;
 &lt;p&gt;This is where Distributed Version Control Systems (DVCSs) step in. In a DVCS (such as Git, Mercurial, Bazaar or Darcs), clients don’t just check out the latest snapshot of the files; rather, they fully mirror the repository, including its full history. Thus, if any server dies, and these systems were collaborating via that server, any of the client repositories can be copied back up to the server to restore it. Every clone is really a full backup of all the data.&lt;/p&gt;
 &lt;p&gt;Furthermore, many of these systems deal pretty well with having several remote repositories they can work with, so you can collaborate with different groups of people in different ways simultaneously within the same project. This allows you to set up several types of workflows that aren’t possible in centralized systems, such as hierarchical models.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-themes/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://example.com/post/post1-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/</link>
+      <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/post1-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/</guid>
+      <description>&lt;h2 id=&#34;cisntaxis&#34;&gt;Cisntaxis&lt;/h2&gt;
+&lt;p&gt;A paragraph is one or more consecutive lines of text separated by one or more blank lines. If a string contains only spaces or tabs, it is still considered empty.&lt;/p&gt;
+&lt;h2 id=&#34;headline&#34;&gt;Headline&lt;/h2&gt;
+&lt;p&gt;Markdown offers two styles of writing headings: through lattices (#) and through underscores (====). You can use up to six levels of headers, but underscores allow you to create only the first two (&lt;h1&gt; and &lt;h2&gt;).&lt;/p&gt;
+&lt;h2 id=&#34;underscores-setextstyle&#34;&gt;Underscores (Setextstyle)&lt;/h2&gt;
+&lt;p&gt;&amp;ldquo;Underlining&amp;rdquo; a paragraph with equal signs (=) or hyphens (-) makes it a first- or second-level heading, respectively. The level of the header depends only on the type of &amp;ldquo;dashes&amp;rdquo;, their number does not matter.&lt;/p&gt;
+&lt;p&gt;There should be no empty lines between the text and the &amp;ldquo;underline&amp;rdquo;.&lt;/p&gt;
+&lt;h2 id=&#34;lists&#34;&gt;Lists&lt;/h2&gt;
+&lt;p&gt;To create bulleted (numbered) lists, put a minus (-), plus (+) or an asterisk (*) before each item. The marker and the text of the item must be separated by a space.
+If there are different markers in front of consecutive items, then after conversion we will get different lists.
+Ordered&lt;/p&gt;
+&lt;p&gt;If we use numbers with a dot at the end (1., 2., etc.) as markers, then we will get an ordered (numbered) list.
+The item numbers in the final markup will go in order (1, 2, 3), even if there will be 1., 4., 9 in Markdown.. This feature allows us to use &amp;ldquo;lazy numbering&amp;rdquo; when the same number is placed before each item.
+The number before the first item shows where to start numbering the list items, so if you put 99., 1., 2. in Markdown, then in the final markup the items will be numbered 99, 100, 101.&lt;/p&gt;
 &lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-themes/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
 </description>
     </item>
